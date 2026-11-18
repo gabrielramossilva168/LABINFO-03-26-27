@@ -1,0 +1,2 @@
+    1  touch  meusComandosCodespace.txt
+    2  history > meusComandosCodespace.txt
