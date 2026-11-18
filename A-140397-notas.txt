@@ -1,0 +1,133 @@
+NOME: Gabriel Silva
+NMEC: 140397
+
+Comando: pwd
+Resultado: /workspaces/LABINFO-03-26-27
+
+Comando: touch identificacao.txt
+Resultado: Criou um ficheiro com o nome de identificacao.txt
+
+Comando: git add identificacao.txt
+Resultado:
+
+Comando: git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+Resultado: [main 9acacc7] Tarefa 1: adiciona o ficheiro de identificação
+ 1 file changed, 2 insertions(+)
+ create mode 100644 identificacao.txt
+
+Comando: git push
+Resultado: Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 369 bytes | 369.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/gabrielramossilva168/LABINFO-03-26-27
+b8b8483..9acacc7  main -> main
+
+Comando: mkdir A140397
+Resultado: Criou a pasta 
+
+Comando: cd A140397
+Resultado: Foi para a pasta criada anteriormente (A140397)
+
+Comando: pwd
+Resultado: /workspaces/LABINFO-03-26-27/A140397
+
+Comando: echo "Teste de LI 2026/2027" > README.md
+Resultado: Criou um ficheiro com o nome README.md, onde na primeira linha esta escrito "Teste de LI 2026/2027"
+
+Comando: cd ..
+Resultado: Regresa a pasta inicial 
+
+Comando: pwd
+Resultado: /workspaces/LABINFO-03-26-27
+
+Comando: touch cmdstask2.txt
+Resultado: Criou um ficheiro cujo o nome é cmdstask2.txt
+
+Comando: history > cmdstask2.txt
+Resultado: Guardou o historico do terminal no ficheiro cmdstask2.txt
+
+Comando: git add A140397/README.md cmdstask2.txt
+Resultado:
+
+Comando: git commit -m "2.ª tarefa concluída"
+Resultado: [main 15e3f91] 2.ª tarefa concluída
+ 2 files changed, 22 insertions(+)
+ create mode 100644 A140397/README.md
+ create mode 100644 cmdstask2.txt
+
+Comando: git push origin main
+Resultado: Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 695 bytes | 695.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/gabrielramossilva168/LABINFO-03-26-27
+   9acacc7..15e3f91  main -> main
+
+Feito no WSL
+
+Comando: cd "/mnt/c/Users/gabri/Desktop/Faculdade/Laboratórios Informática/Teste3/LABINFO-03-26-27"
+Resultado: O terminal foi para essa pasta 
+
+Comando: pwd 
+Resultado: /mnt/c/Users/gabri/Desktop/Faculdade/Laboratórios Informática/Teste3/LABINFO-03-26-27
+
+Comando: git clone https://github.com/gabrielramossilva168/LABINFO-03-26-27.git
+Resultado: Fez clone para o meu computador do meu repositorio do github
+Cloning into 'LABINFO-03-26-27'...
+remote: Enumerating objects: 11, done.
+remote: Total 11 (delta 0), reused 0 (delta 0), pack-reused 11 (from 1)
+Receiving objects: 100% (11/11), done.
+
+Comando: touch index.html 
+Resultado Criou um ficheiro com o nome de index.html
+
+Comando: git add index.html
+Resultado:
+
+Comando: git commit -m "3.ª tarefa concluída"
+Resultado: [main aa549ac] 3.ª tarefa concluída
+ 1 file changed, 15 insertions(+)
+ create mode 100644 index.html
+
+Comando: git push origin main
+Resultado: 
+
+ === Comandos do Codespace ===
+
+Comando: touch meusComandosCodespace.txt
+Resultado Criou um ficheiro com o nome de meusComandosCodespace.txt
+
+Comando: git commit -m "Tarefa 6: regista o histórico do Codespace"
+Resultado: 1 file changed, 2 insertions(+)
+ create mode 100644 meusComandosCodespace.txt
+
+Comando: git push origin main
+Resultado: Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 377 bytes | 377.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/gabrielramossilva168/LABINFO-03-26-27
+   15e3f91..b9625ad  main -> main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
