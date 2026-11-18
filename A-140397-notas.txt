@@ -117,6 +117,26 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/gabrielramossilva168/LABINFO-03-26-27
    15e3f91..b9625ad  main -> main
 
+Comando: git add A-140397-notas.txt
+Resultado:
+
+Comando: git commit -m "Final Notas"
+Resultado: [main 9d98144] Final Notas
+ 1 file changed, 133 insertions(+)
+ create mode 100644 A-140397-notas.txt
+
+Comando: git push origin main
+Resultado: Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.36 KiB | 1.36 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/gabrielramossilva168/LABINFO-03-26-27
+   937b989..9d98144  main -> main
+
+
 
 
 
